@@ -8,10 +8,10 @@ interface IProps {}
 const Footer: React.FC<IProps> = () => {
   return (
     <div>
-      <Box sx={{ flexGrow: 1 }}>
+      <Box sx={{ flexGrow: 0 }}>
         <AppBar position="static">
-          <Box sx={{ textAlign: "center", m: 2 }}>
-            <Typography>App provided as is</Typography>
+          <Box sx={{ textAlign: "center", m: 1 }}>
+            <Typography>hermessecund</Typography>
           </Box>
         </AppBar>
       </Box>
