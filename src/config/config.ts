@@ -6,7 +6,7 @@ export const configVars = {
     chainId: 338,
     chainIdHex: "0x152",
     chainName: "Cronos Testnet",
-    chainType: "testnet",
+    chainType: "mainnet",
     nativeCurrency: {
       name: "CRO",
       symbol: "CRO",
