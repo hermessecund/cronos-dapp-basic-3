@@ -154,6 +154,12 @@ const Welcome: React.FC<IProps> = () => {
             User's Ethereum address:{" "}
             {state.wallet.address ? state.wallet.address : "Not connected"}
           </Typography>
+            <Typography variant="body1" component="div" gutterBottom>
+            User's CRO balance: {state.queryResults.croBalance}
+          </Typography>
+          <Typography variant="body1" component="div" gutterBottom>
+            User's Binutecoin balance: {state.queryResults.erc20Balance}
+          </Typography>
           <Typography variant="body1" component="div" gutterBottom>
             Chain ID:{" "}
             {state.wallet.chainId ? state.wallet.chainId : "Not connected"}
@@ -169,12 +175,6 @@ const Welcome: React.FC<IProps> = () => {
             {state.queryResults.lastBlockNumber
               ? state.queryResults.lastBlockNumber
               : "Not connected"}
-          </Typography>
-          <Typography variant="body1" component="div" gutterBottom>
-            User's CRO balance: {state.queryResults.croBalance}
-          </Typography>
-          <Typography variant="body1" component="div" gutterBottom>
-            User's CTOK token balance: {state.queryResults.erc20Balance}
           </Typography>
           {renderLastTransaction()}
           {renderButtons()}
