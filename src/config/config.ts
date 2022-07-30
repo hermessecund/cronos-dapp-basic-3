@@ -2,6 +2,7 @@
 export const configVars = {
  
   rpcNetwork: {
+    mode: "regular",
     rpcUrl: "https://evm-t3.cronos.org/",
     chainId: 338,
     chainIdHex: "0x152",
@@ -15,7 +16,7 @@ export const configVars = {
     blockExplorerUrl: "https://cronos.crypto.org/explorer/testnet3/",
   },
   rpcNetwork_mainnet: {
-     mode: "regular",
+    
     rpcUrl: "https://evm.cronos.org/",
     chainId: 25,
     chainIdHex: "0x19",
