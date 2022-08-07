@@ -1,8 +1,8 @@
 // config/config.ts
 export const configVars = {
  
- // rpcNetwork: {
-    //mode: "regular",
+ rpcNetwork: {
+ mode: "regular",
  //   rpcUrl: "https://evm-t3.cronos.org/",
  //   chainId: 338,
  //   chainIdHex: "0x152",
@@ -15,7 +15,7 @@ export const configVars = {
    // },
   //  blockExplorerUrl: "https://cronos.crypto.org/explorer/testnet3/",
  // },
-  rpcNetwork_mainnet: {
+ // rpcNetwork_mainnet: {
     
     rpcUrl: "https://evm.cronos.org/",
     chainId: 25,
