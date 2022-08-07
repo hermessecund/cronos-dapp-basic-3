@@ -1,22 +1,7 @@
 // config/config.ts
 export const configVars = {
  
- rpcNetwork: {
- mode: "regular",
- //   rpcUrl: "https://evm-t3.cronos.org/",
- //   chainId: 338,
- //   chainIdHex: "0x152",
- //   chainName: "Cronos Testnet",
-  //  chainType: "testnet",
- //   nativeCurrency: {
-  //    name: "CRO",
-//      symbol: "CRO",
-     // decimals: 18,
-   // },
-  //  blockExplorerUrl: "https://cronos.crypto.org/explorer/testnet3/",
- // },
- // rpcNetwork_mainnet: {
-    
+ rpcNetwork: {  
     rpcUrl: "https://evm.cronos.org/",
     chainId: 25,
     chainIdHex: "0x19",
