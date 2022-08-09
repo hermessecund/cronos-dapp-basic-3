@@ -1,7 +1,20 @@
 // config/config.ts
 export const configVars = {
- 
- rpcNetwork_mainnet: {  
+  mode: "regular",
+  rpcNetwork: {
+    rpcUrl: "https://evm.cronos.org/",
+    chainId: 25,
+    chainIdHex: "0x19",
+    chainName: "Cronos Mainnet Beta",
+    chainType: "mainnet",
+    nativeCurrency: {
+      name: "CRO",
+      symbol: "CRO",
+      decimals: 18,
+    },
+    blockExplorerUrl: "https://cronos.crypto.org/explorer/testnet3/",
+  },
+  rpcNetwork_mainnet: {
     rpcUrl: "https://evm.cronos.org/",
     chainId: 25,
     chainIdHex: "0x19",
