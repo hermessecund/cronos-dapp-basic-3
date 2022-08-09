@@ -2,10 +2,10 @@
 export const configVars = {
   mode: "regular",
   rpcNetwork: {
-    rpcUrl: "https://evm.cronos.org/",
-    chainId: 25,
-    chainIdHex: "0x19",
-    chainName: "Cronos Mainnet Beta",
+    rpcUrl: "https://evm-t3.cronos.org/",
+    chainId: 338,
+    chainIdHex: "0x152",
+    chainName: "Cronos Testnet",
     chainType: "mainnet",
     nativeCurrency: {
       name: "CRO",
